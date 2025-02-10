@@ -1,9 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import { Styles } from "./components/GlobalStyles/Styles";
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <Styles/>
       <h1>Freelando</h1>
     </div>
   );
